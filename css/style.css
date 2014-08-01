@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+.font-1{
+	font-size: 1em !important;
+ }
+.font-2{
+	font-size: 1.005em !important;
+ }
+.font-3{
+	font-size: 1.010em !important;
+ }
+.font-4{
+	font-size: 1.015em !important;
+ }
+.font-5{
+	font-size: 1.020em !important;
+ }
+.font-6{
+	font-size: 1.025em !important;
+ }
+.font-7{
+	font-size: 1.030em !important;
+ }
+.font-8{
+	font-size: 1.035em !important;
+ }
+.font-9{
+	font-size: 1.040em !important;
+ }
+.font-10{
+	font-size: 1.045em !important;
+ }
+
+
+.big_logo{
+	  width:150px;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+.big_logo img{
+	 width:100%;
+	}
+
+#home_navigation{
+	  margin:0 auto;
+	  padding:0;
+	}
+#home_navigation a{
+	  margin:2px;
+	}
+#home_navigation a img{
+	 width:100px;
+	}
+.header_navigator{
+	 height:30px;
+	 padding:5px;
+	 vertical-align:baseline;
+	}
+
+#home_button{
+	 float:left;
+	 height:26px;
+	 margin-left:5px;
+	 margin-top:3px;
+	}
+#home_button img{
+	 height:100%;
+	}
+#panel_button{
+	float:right;
+	height:24px;
+	margin-right:7px;
+	margin-top:5px;
+	}
+#panel_button img{
+	 height:100%;
+	}
+#reminder_button{
+	 float:left;
+	 height:26px;
+	 margin-left:7px;
+	 margin-top:3px;
+	}
+#reminder_button img{
+	 height:100%;
+	}
+.ui-icon-logout {
+			background: url(../images/icons/power-off.png) no-repeat rgba(0, 0, 0, 0.4) !important;
+}
+
+.ui-dialog-contain {
+	width: 92.5%;
+	max-width: 500px;
+	margin: 10% auto 15px auto;
+	padding: 0;
+	position: relative;
+	top: -15px;
+	
+}
+div.central,div.login_div, div.signup_div{
+	  max-width:500px;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+div.login_div, div.signup_div{
+	text-align:center;
+	}
+div.central_div{
+	  max-width:700px;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+div.button{
+	  max-width:300px;
+	  margin-left:auto;
+	  margin-right:auto;
+	}
+/*.ui-btn{
+	 max-width:515px;
+	 margin-left:auto;
+	 margin-right:auto;
+	}*/
+.collapsible{ 
+     max-width:500px !important; 
+}
+.ui-input-text{}
+
+#social_services_list .ui-li a{
+	white-space:normal;
+}
+#taxis_list .ui-li h2{
+	white-space:normal;
+}
+#taxis_list .ui-li p{
+	white-space:normal;
+}
+#supermarkets_list .ui-li h2{
+	white-space:normal;
+}
+#supermarkets_list .ui-li p{
+	white-space:normal;
+}
+#schedules_list .ui-li a h5{
+	white-space:normal;
+}
+
+.service_data_store {
+    display:none; 
+}
+.service_data_store > div {
+    display:none;
+}
+#region_fieldcontain{
+	display:none;
+	}
+#call_market_popup,#call_taxi_popup{
+	 text-align:center;
+	}
+a.telephone{
+	  color:white !important;
+	  text-decoration:none !important;
+	  padding:8px 10px 8px 40px;
+	  background-image:url(../images/icons/Call-Us-Button.png);
+	  background-size:100% 100%;
+	  background-position:top left;
+	 
+	  
+
+	}
+.market_tel, .taxi_tel{
+	font-size: 18px;
+	font-weight: bold;
+	display:block;
+	margin-top:25px !important;
+	}
+#news_page .ui-content{
+	padding:0;
+	}
+
+#map_canvas{
+	  width:100%;
+	  height:100%;
+	}
+#map_page .ui-content{
+	 padding:0;
+	 position : absolute;
+     top      : 1px;
+     right    : 0;
+     bottom   : 0;
+     left     : 0;
+	 width:100%;
+	}
+#post_to_map, #filter_the_map, #goto_location{
+	padding:20px;
+	width:90% !important;
+	
+	}
+#post_to_map{
+	height:400px;
+	overflow:auto;
+	/*border:1px solid green;*/
+	}
+#filter_the_map{
+	height:400px;
+	overflow:auto;
+	/*border:1px solid green;*/
+	}
+#map_page .ui-footer{
+	/* text-align:center;*/
+	}
+#map_page .ui-controlgroup{
+	/* display:inline-block;
+	 text-align:center;
+	 margin-left:auto;
+	 margin-right:auto;
+	 margin-bottom:4px;
+	 
+	 padding:0;*/
+	
+	}
+img.facility_sign{
+	 width:30px;
+	 height:30px;
+	 margin:3px;
+	}
